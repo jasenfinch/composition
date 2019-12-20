@@ -9,7 +9,7 @@ keggPIPs(MFs, organism = character(), adductRules = adducts())
 \arguments{
 \item{MFs}{Molecular formulas and adducts to search. Should be a tibble containing two character columns named MF and Adduct.}
 
-\item{organism}{KEGG organism ID.}
+\item{organism}{KEGG organism ID}
 
 \item{adductRules}{table containing adduct formation rules. Defaults to mzAnnotation::adducts().}
 }
