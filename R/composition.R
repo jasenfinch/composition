@@ -1,2 +1,2 @@
 
-globalVariables(c('kingdom','.'))
+globalVariables(c('kingdom','.','Compound','Enzyme'))
