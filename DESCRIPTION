@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jsf9@aber.ac.uk",
            comment = c(ORCID = "0000-0002-6070-7476"))
-Description: Structural and functional composition analyses for metabolomics data
+Description: Structural and functional composition analyses for metabolomics data.
 Imports: dplyr,
         magrittr,
         plotly,
