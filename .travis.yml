@@ -4,6 +4,10 @@ language: R
 cache: packages
 warnings_are_errors: true
 
+r:
+  - release
+  - devel
+
 apt_packages:
   - libopenbabel-dev
 
