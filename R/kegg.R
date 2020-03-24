@@ -82,7 +82,7 @@ keggPathways <- function(IDs,organism = character()){
     organismPathways <- keggLink(organism,'pathway') %>%
       {tibble(Pathway = names(.))} %>%
       distinct() %>%
-      mutate(Pathway = str_replace_all(Pathway,organsim,'map'))
+      mutate(Pathway = str_replace_all(Pathway,organism,'map'))
     pathways <- pathways %>%
       inner_join(organismPathways, by = "Pathway")
   }
