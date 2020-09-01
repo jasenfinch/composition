@@ -1,5 +1,5 @@
 Package: composition
-Title: Composition Analyses For Metabolomics Data
+Title: Composition Analyses for Metabolomics Data
 Version: 0.1.2
 Authors@R: 
     person(given = "Jasen",
