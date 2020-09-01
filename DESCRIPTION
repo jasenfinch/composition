@@ -17,6 +17,7 @@ Imports: dplyr,
         purrr,
         stringr,
         tibble
+Remotes: jasenfinch/mzAnnotation
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
