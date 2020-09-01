@@ -58,7 +58,7 @@ keggPIPs <- function(MFs, organism = character(), adductRules = adducts()){
         filterIP(rule = rule$Rule) %>%
         getAccessions() %>%
         mutate(MF = .x$MF,Adduct = .x$Adduct) %>%
-        select(ACCESSION_ID,MF,Adduct,everything())
+        select(ID,MF,Adduct,everything())
     }) %>%
     bind_rows()
 }
