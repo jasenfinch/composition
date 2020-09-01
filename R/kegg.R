@@ -8,7 +8,7 @@ keggCompounds <- function(organism = character()){
   if (length(organism) == 0) {
     compounds <- metabolites %>%
       getAccessions() %>%
-      .$ACCESSION_ID
+      .$ID
   } else {
     enzymes <- keggLink(organism,'enzyme') %>%
       names()
