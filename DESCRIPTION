@@ -1,6 +1,6 @@
 Package: composition
 Title: Composition Analyses for Metabolomics Data
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person(given = "Jasen",
            family = "Finch",
